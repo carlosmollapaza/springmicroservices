@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: calificacion-service
-#eureka:
-# client:
-#   serviceUrl:
-#     defaultZone: http://localhost:8099/eureka/
+eureka:
+ client:
+   serviceUrl:
+     defaultZone: http://localhost:8099/eureka/
