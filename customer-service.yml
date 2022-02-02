@@ -1,8 +1,5 @@
 server:
   port: 8093
-spring:
-  application:
-    name: customer-service
 eureka:
  client:
    serviceUrl:
